@@ -54,8 +54,7 @@ const Navbar = () => {
 
           <div className={`menu-mobile ${showMenu ? "active" : ""}`}>
             <div
-              className="links pl-14 flex gap-8 text-[
-rgb(17, 17, 17)] text-sm md:text-lg"
+              className="links flex gap-8 text-[rgb(17, 17, 17)] text-sm md:text-lg pl-14"
             >
               <Link
                 to={"/"}
